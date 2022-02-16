@@ -1,0 +1,19 @@
+*{
+    background: #ccc;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,10px);
+    grid-gap: 5px;
+    
+
+    
+}
+img{
+    border: 1px solid red;
+    margin-left: 10px;
+}
